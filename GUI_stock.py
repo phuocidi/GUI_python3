@@ -15,7 +15,7 @@ mpl.style.use('ggplot')
 
 import numpy as np
 import pandas as pd
-import pandas.io.data as web
+from pandas_datareader import data as web
 from sklearn.decomposition import KernelPCA
 
 class YStock:
